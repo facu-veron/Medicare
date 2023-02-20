@@ -173,10 +173,10 @@ function HomeContent() {
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
             <Grid container spacing={3}>
-              <Grid item xs={12} md={8} lg={12}>
+              <Grid item xs={12} md={6} lg={12}>
                 <TitleHome />
               </Grid>
-              <Grid item xs={12} md={8} lg={12}>
+              <Grid item xs={12} md={6} lg={12}>
                 {/* <DatePickers />
                 <SelectSpeciality /> */}
                 <FormTurns />
